@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import './itemPage.sass';
 import NavBar from '../NavBar/NavBar';
 import NavBarFooter from '../NavBarFooter/NavBarFooter';
 
