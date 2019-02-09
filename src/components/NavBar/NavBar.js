@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './navBar.sass';
+import { Link } from "react-router-dom";
 
 class NavBar extends Component {
 	constructor(props) {
@@ -14,15 +15,15 @@ class NavBar extends Component {
 							<header>
 								<ul className="header">
 									<li className="header__item">
-										<a href="#">
+										<Link to="/">
 											<img src="logo/Logo.svg" alt="logo"/>
-										</a>
+										</Link>
 									</li>
 									<li className="header__item">
-										<a href="#">Our coffee</a>
+										<Link to="ourCoffe">Our coffee</Link>
 									</li>
 									<li className="header__item">
-										<a href="#">For your pleasure</a>
+										<Link to="forYour" >For your pleasure</Link>
 									</li>
 								</ul>
 							</header>
