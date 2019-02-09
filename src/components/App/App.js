@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import './app.sass';
 import Main from '../Main/Main';
 import CoffePage from '../CoffePage/CoffePage';
+import ItemPage from '../ItemPage/ItemPage';
+
 
 
 class App extends Component {
@@ -9,7 +11,9 @@ class App extends Component {
 		return (
 			<div className="App">
 			{/* <Main/> */}
-			<CoffePage/>
+			{/* <CoffePage/> */}
+			<ItemPage/>
+
 			</div>
 		);
 	}
