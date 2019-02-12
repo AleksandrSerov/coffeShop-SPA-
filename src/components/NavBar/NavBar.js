@@ -23,7 +23,7 @@ class NavBar extends Component {
 										<Link to="ourCoffe">Our coffee</Link>
 									</li>
 									<li className="header__item">
-										<Link to="forYour" >For your pleasure</Link>
+										<Link to="ourGoods" >For your pleasure</Link>
 									</li>
 								</ul>
 							</header>

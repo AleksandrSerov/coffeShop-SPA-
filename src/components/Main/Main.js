@@ -3,9 +3,13 @@ import './main.sass';
 import NavBar from '../NavBar/NavBar';
 import NavBarFooter from '../NavBarFooter/NavBarFooter';
 import BestItems from '../BestItems/BestItems';
-
-
+import { Link } from 'react-router-dom';
+import CoffeService from '../../services/СoffeService';
 class Main extends Component {
+	service = new CoffeService();
+	state = {
+		data: {}
+	}
 	render() {
 		return (
 				<div className="main">
@@ -18,7 +22,7 @@ class Main extends Component {
 									<img className="beanslogo" src="logo/Beans_logo.svg" alt="Beans logo"/>
 									<div className="preview__subtitle">We makes every day full of energy and taste</div>
 									<div className="preview__subtitle">Want to try our beans?</div>
-									<a href="#" className="preview__btn">More</a>
+									<Link to="ourCoffe" href="#" className="preview__btn">More</Link>
 								</div>
 							</div>
 						</div>

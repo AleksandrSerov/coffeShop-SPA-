@@ -7,14 +7,14 @@ import GoodsPage from '../GoodsPage/GoodsPage';
 
 import { BrowserRouter as Router, Route} from "react-router-dom";
 class App extends Component {
+	
 	render() {
 		return (
 			<Router>
 				<>
 					<Route exact path="/" component={Main}/>
 					<Route path="/ourCoffe" component={CoffePage}/>
-					<Route path="/forYour" component={GoodsPage}/>
-
+					<Route path="/ourGoods" component={GoodsPage}/>
 				</>
 			</Router>
 		);
